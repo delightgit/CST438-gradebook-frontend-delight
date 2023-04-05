@@ -137,8 +137,8 @@ class Gradebook extends React.Component {
                 </Grid>
               </Grid>
               <div style={{width:'100%'}}>
-                For DEBUG:  display state.
-                {JSON.stringify(this.state)}
+                {/*For DEBUG:  display state.*/}
+                {/*JSON.stringify(this.state)*/}
               </div>
               <div style={{ height: 400, width: '100%' }}>
                 <DataGrid rows={this.state.grades} columns={columns} onCellEditCommit={this.handleCellEditCommit}  />
